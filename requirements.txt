@@ -1,0 +1,18 @@
+# Intel Image Classification – Python dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core ML ────────────────────────────────────────────────
+torch>=2.2.0
+torchvision>=0.17.0
+
+tensorflow>=2.15.0
+keras>=3.0.0
+
+# ── Data / Utils ───────────────────────────────────────────
+numpy>=1.24.0
+Pillow>=10.0.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0       # for confusion matrix helper (optional)
+
+# ── Optional: rotation support for TF pipeline ─────────────
+# tensorflow-addons>=0.23.0   # Uncomment if using TFA for random rotation
